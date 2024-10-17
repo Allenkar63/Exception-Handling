@@ -36,5 +36,24 @@ int main() {
     return 0;
 }
 ```
+
+## Algorithm
+
+Exception handling in C++ allows the program to manage runtime errors and maintain the normal flow of execution. It uses `try`, `catch`, and `throw` blocks to handle exceptions.
+
+### Steps:
+
+1. **Throw an Exception:**
+   - When an error occurs, throw an exception using the `throw` keyword.
+   - The thrown exception must be caught by a `catch` block.
+
+2. **Catch an Exception:**
+   - The `catch` block handles the exception thrown in the `try` block.
+   - Catch blocks are written to deal with specific types of exceptions.
+
+3. **Try Block:**
+   - The `try` block contains the code that might throw an exception.
+
+
 ## Conclusion 
 In this experiment we learnt about exception handling.
